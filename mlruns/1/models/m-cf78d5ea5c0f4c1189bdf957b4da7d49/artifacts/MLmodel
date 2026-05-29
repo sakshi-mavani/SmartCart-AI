@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Shreeji/SmartCart-AI/mlruns/1/models/m-cf78d5ea5c0f4c1189bdf957b4da7d49/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-cf78d5ea5c0f4c1189bdf957b4da7d49
+model_size_bytes: 14170366
+model_uuid: m-cf78d5ea5c0f4c1189bdf957b4da7d49
+prompts: null
+run_id: 25de317e17d84c9f9e88292bf286aeef
+utc_time_created: '2026-05-29 11:11:39.696764'
